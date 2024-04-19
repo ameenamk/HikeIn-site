@@ -1,0 +1,187 @@
+.header{
+    background-color: #f5f6f7;
+    color:rgb(65, 109, 25);
+    text-align:center;
+    padding:32px;
+    border-bottom:5px solid rgb(44, 120, 101);
+
+}
+*{
+    margin: 11px;
+    background-color: #f5f6f7;
+
+}
+#home img{
+    width:100%;
+    height:40rem;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 2px;
+}
+.outdoor{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    max-width: 1500px;
+    margin:0 auto;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 17px;
+}
+.outdoor img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+.outdoor button{
+    height: 2.8rem;
+  width:6rem;
+  margin-top: 21px;
+  border-radius: 15px;
+  background: rgb(120, 160, 131);
+  font-size: medium;
+  align-content: center;
+
+  }
+#places{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#outdr{
+    text-align: center;
+    margin-top: 5px;
+}
+.place {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .place img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .place button{
+    height: 2.8rem;
+  width:6rem;
+  margin-top: 21px;
+  border-radius: 15px;
+  background: rgb(120, 160, 131);
+  font-size: medium;
+  align-content: center;
+
+  }
+/*hr{
+    border-style: none;
+    border-top-style: dotted;
+    width:30%;
+    border-color:grey;
+    border-width: 3px;
+    ;
+}*/
+.box{
+    display:inline-block;
+}
+.boxes{
+    height:190px;
+    width:270px;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+
+}
+.box{
+    padding-left: 300px;
+}
+#blog{
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(120, 160, 131);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: rgb(44, 120, 101);
+  }
+  #hiking{
+    padding-right: 10px;
+  }
+  input[type="submit1"] {
+    display: block;
+    width: 10%;
+    margin: 1em auto;
+    height: 3em;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: rgb(120, 160, 131);
+    border-color: white;
+    min-width: 190px;
+    margin-left:265px;
+    border-radius:15px;
+  }
+ input[type="submit2"]{
+    display: block;
+    width: 10%;
+    margin: 1em auto;
+    height: 3em;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: rgb(120, 160, 131);
+    border-color: white;
+    min-width: 190px;
+    margin-left: 666px;
+    margin-top: -75px;
+    border-radius: 15px;
+ }
+ input[type="submit3"]{
+    display: block;
+    width: 10%;
+    margin: 1em auto;
+    height: 3em;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: rgb(120, 160, 131);
+    border-color: white;
+    min-width: 190px;
+    margin-left: 1060px;
+    margin-top: -75px;
+    border-radius: 15px;
+ }
+h1{
+    font-size: 3rem;
+    font-family:monospace;
+}
+.footer{
+    background-color:rgb(44, 120, 101);
+    width:100%;
+    height:300px;
+}
+
+
+
+
